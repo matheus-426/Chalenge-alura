@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>decriptografar</title>
+        <link rel="stylesheet" type="text/css" href="stilos_2.css" defer>
+        <script src="script_2.js" defer></script>
+    </head>
+    <body> 
+        <header align="center" class="cabeçalho">
+            <h1><strong>Encriptador de Texto</strong></h1>
+            <button id="darkmode" onclick="darkin()">Modo Escuro</button>
+        </header>
+        <div class="principal">
+            <div class="principal__texto">
+                <div class="principal__texto__bloco">
+                    <textarea id="entrada" name="texto" rows="20" cols="50" placeholder="digite o texto para ser criptografado/descriptografado."></textarea>
+                    <button class="cucu" class="colala" onclick="colar()">Colar Texto</button>
+                </div>
+                <div class="principal__texto__bloco">
+                    <textarea id="saida" name="texto" rows="20" cols="50" placeholder="texto descriptografado/criptografado" readonly></textarea>
+                    <button class="cucu"  class="copiador" onclick="copiartxt()">Copiar Texto</button>
+                </div>    
+            </div>
+            <div class="botoes">
+                <button class="cucu" class="botoes__BT" class="descri" onclick="descripto()">Descriptografar Texto</button>
+                <button class="cucu" class="botoes__BT" class="cripto" onclick="criptogra()">Criptografar Texto</button>
+            </div>
+            <div id="copino">Texto Copiado</div>            
+        </div>
+        <footer class="rodape">
+            <p> Desenvolvido por: Matheus Lona</p>
+            <p> Redes Sociais:</p>
+            <p><a href="https://github.com/matheus-426" target="_blank">GitHub</a></p>
+            <p><a href="https://www.facebook.com/profile.php?id=61555088108733" target="_blank">FaceBook</a></p>
+            <p><a href="https://www.instagram.com/mlonaramalho/" target="_blank">Instagran</a></p>
+        </footer>
+    </body>
+</html>
